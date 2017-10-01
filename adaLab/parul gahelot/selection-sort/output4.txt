@@ -1,6 +1,0 @@
-Sorted list in ascending order:
-1
-2
-3
-3
-6
