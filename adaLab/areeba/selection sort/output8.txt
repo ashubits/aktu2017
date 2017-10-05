@@ -1,0 +1,25 @@
+Enter 21 integers
+Sorted list in ascending order:
+1
+2
+3
+4
+4
+7
+8
+9
+9
+10
+10
+10
+15
+15
+16
+16
+17
+19
+19
+20
+20
+
+225
