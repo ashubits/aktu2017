@@ -1,17 +1,18 @@
+Enter 14 integers
+Sorted list in ascending order:
+1
+1
+1
+2
+2
+3
+3
+4
+5
+5
+6
+9
+10
+11
 
-Sorted array is :
-1 
-1 
-1 
-2 
-2 
-3 
-3 
-4 
-5 
-5 
-6 
-9 
-10 
-11 
-67
+101
