@@ -1,0 +1,7 @@
+Sorted list in ascending order:
+0
+1
+2
+3
+3
+10

@@ -1,0 +1,20 @@
+
+t=4 l=0 r=4
+insertion count at every step=10
+t=4 l=5 r=9
+insertion count at every step=20
+Sorted array is 
+
+1
+2
+3
+3
+5
+5
+6
+6
+7
+9
+
+merge count 10
+ insertion count 20

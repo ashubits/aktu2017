@@ -1,0 +1,13 @@
+Sorted list in ascending order:
+0
+1
+1
+2
+3
+4
+6
+6
+6
+8
+10
+55

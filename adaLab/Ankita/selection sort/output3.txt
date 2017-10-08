@@ -1,0 +1,16 @@
+Enter 12 integers
+Sorted list in ascending order:
+0
+1
+2
+5
+7
+7
+7
+7
+9
+9
+10
+10
+
+73
