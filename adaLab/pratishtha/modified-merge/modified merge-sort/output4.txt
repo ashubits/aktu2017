@@ -1,0 +1,14 @@
+
+t=5 l=0 r=5
+insertion count at every step=15
+Sorted array is 
+
+1
+1
+1
+3
+4
+5
+
+merge count 0
+ insertion count 15
