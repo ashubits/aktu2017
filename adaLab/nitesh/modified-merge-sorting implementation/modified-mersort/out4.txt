@@ -1,0 +1,12 @@
+
+t=3 l=0 r=3
+insertion count at every step=6
+Sorted array is 
+
+1
+2
+3
+3
+
+merge count 0
+ insertion count 6
