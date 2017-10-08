@@ -1,0 +1,7 @@
+Enter 3 integers
+Sorted list in ascending order:
+0
+1
+1
+
+4

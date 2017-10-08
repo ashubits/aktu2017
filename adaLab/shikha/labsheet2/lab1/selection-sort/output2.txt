@@ -1,0 +1,6 @@
+Enter 2 integers
+Sorted list in ascending order:
+0
+1
+
+2
