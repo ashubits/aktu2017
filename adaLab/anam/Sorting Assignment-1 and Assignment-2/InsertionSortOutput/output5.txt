@@ -1,0 +1,8 @@
+No. of Elements are:5
+Sorted ELements are:
+0
+1
+2
+3
+3
+No. of swaps are:7
