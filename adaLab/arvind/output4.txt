@@ -1,8 +1,7 @@
-Enter 4 integers
-Sorted list in ascending order:
-1
-2
+Order of Sorted elements: 
+ 
+1 
+2 
+3 
 3
-3
-
 7
