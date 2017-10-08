@@ -1,0 +1,7 @@
+
+Sorted array is 
+
+0
+1
+
+2
