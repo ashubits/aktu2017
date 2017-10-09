@@ -1,0 +1,62 @@
+
+t=4 l=0 r=4
+insertion count at every step=10
+t=4 l=5 r=9
+insertion count at every step=20
+t=4 l=10 r=14
+insertion count at every step=30
+t=4 l=15 r=19
+insertion count at every step=40
+t=4 l=20 r=24
+insertion count at every step=50
+t=4 l=25 r=29
+insertion count at every step=60
+t=4 l=30 r=34
+insertion count at every step=70
+t=4 l=35 r=39
+insertion count at every step=80
+Sorted array is 
+
+2
+2
+2
+3
+3
+6
+6
+7
+7
+8
+9
+9
+10
+10
+11
+11
+12
+12
+15
+15
+16
+16
+17
+18
+19
+20
+21
+22
+22
+22
+23
+26
+26
+27
+27
+29
+29
+33
+33
+35
+
+merge count 120
+ insertion count 80
