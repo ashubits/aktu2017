@@ -1,1 +1,2 @@
-recent attacks 
+Recent attacks 
+GERMAN AND FRENCH ATTACKS 2017
