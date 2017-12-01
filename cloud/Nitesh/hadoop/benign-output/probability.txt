@@ -1,0 +1,1 @@
+posterior-numerator(probability) of a sample is:= 3.274813616153341978390466677E-186
