@@ -1,0 +1,5 @@
+Step1: #chmod +x temp1.sh temp2.sh temp3.sh temp4.sh temp5.sh 
+Step2: #./temp1.sh & ./temp2.sh & ./temp3.sh & ./temp4.sh & ./temp5.sh &
+Step3: #ps -f -u temp --sort=-%cpu | head -n 3 | grep [pid] | awk '{print $2}' | xargs kill -9
+
+

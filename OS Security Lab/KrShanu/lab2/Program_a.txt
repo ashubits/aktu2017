@@ -1,0 +1,5 @@
+Step1: # chmod +x P1.sh P2.sh P3.sh P4.sh P5.sh P6.sh P7.sh P8.sh P9.sh P10.sh 
+Step2: #  ./P1.sh & ./P2.sh & ./P3.sh & ./P4.sh &./P5.sh & ./P6.sh & ./P7.sh & ./P8.sh & ./P9.sh &./ P10.sh & 
+Step3: # ps aux --sort=-pcpu | head -6
+
+
