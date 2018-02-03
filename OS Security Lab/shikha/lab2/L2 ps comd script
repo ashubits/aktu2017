@@ -1,0 +1,19 @@
+ # create 10 process,print pid,sort them by cpu time ,sort by memory.
+ 1) ./p1 &
+  ./p2 &
+  ./p3 &
+  ./p4 &
+  ./p5 &
+  ./p6 &
+  ./p7 &
+  ./p8 &
+  ./p9 &
+  ./p10 &
+2.) # ps -o user,pid
+3.) # ps aux --sort=-pcpu
+    # ps aux --sort=-pcpu |head -6 #out of 10 ,5 pid
+4.)
+    #ps aux --sort=-pmem  |head -6
+
+
+  
