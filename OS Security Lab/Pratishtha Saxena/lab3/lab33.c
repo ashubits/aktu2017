@@ -8,9 +8,10 @@ static int available;
 pthread_mutex_t lock;
 void *producerConsumer(void *quantity)
 {
-pthread_mutex_lock(&lock);
+
 int *quantity1=(int*)quantity;
 int i,temp;
+pthread_mutex_lock(&lock);
 for(i=0;i<5000000;i++)
 {
 temp=available;
