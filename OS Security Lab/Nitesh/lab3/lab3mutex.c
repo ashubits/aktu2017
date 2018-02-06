@@ -10,18 +10,17 @@ long int i,temp;
 
 pthread_t thId = pthread_self();
 
-printf("\n Enter thread id=%ld",thId);
-
-pthread_mutex_lock(&lock);
-for(i=0;i<5000000;i++)
+for(i=0;i<50;i++)
 {
+pthread_mutex_lock(&lock);
+printf("\n Enter thread id=%ld",thId);
 temp=available;
 temp=temp+*quantity1;
 available=temp;
+pthread_mutex_unlock(&lock);
+printf("\n Exit thread id=%ld",thId);
 }
 
-printf("\n Exit thread id=%ld",thId);
-pthread_mutex_unlock(&lock);
 //printf("\n The Availability of item sare=%d", available);
 }
 
