@@ -8,13 +8,15 @@ void *producerConsumer(void* pquantity){
 	int temp; long i;
 	int *quantity = (int *)pquantity;
 	int int_quant = *quantity;
-	pthread_mutex_lock(&lock);
+	
 	for(i = 0; i < 5000000; i++){
+		pthread_mutex_lock(&lock);
 		temp = available;
 		temp = temp + int_quant;
 		available = temp;
+		pthread_mutex_unlock(&lock);
 	}
-	pthread_mutex_unlock(&lock);
+	
 }
 
 void main(){
