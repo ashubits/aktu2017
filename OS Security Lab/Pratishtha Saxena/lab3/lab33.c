@@ -11,15 +11,16 @@ void *producerConsumer(void *quantity)
 
 int *quantity1=(int*)quantity;
 int i,temp;
-pthread_mutex_lock(&lock);
+
 for(i=0;i<5000000;i++)
 {
+ pthread_mutex_lock(&lock);
 temp=available;
 temp=temp+*quantity1;
 available=temp;
-
-}
 pthread_mutex_unlock(&lock);
+}
+
 }
 
 void main()
