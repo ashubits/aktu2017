@@ -1,0 +1,2 @@
+  #md5deep -rl path >file.txt
+  #md5deep-rl Desltop >file.txt
