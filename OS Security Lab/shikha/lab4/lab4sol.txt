@@ -1,0 +1,27 @@
+oot@kali:~/Desktop# md5deep -rl temp > temp.txt
+root@kali:~/Desktop# md5deep -rl temp > temp1.txt
+root@kali:~/Desktop# diff -u temp.txt temp1.txt
+--- temp.txt	2018-02-08 23:45:51.312031927 -0500
++++ temp1.txt	2018-02-08 23:46:47.164028785 -0500
+@@ -1,5 +1,5 @@
+ 2dc432f0b14198bde59cc4e27d98250d  temp/acc.md5
+-d3cdf380ec9b9e847f3a8881e3431d42  temp/abc.txt // old value
++3b5e77e3928e9db3df27249ed08a52b7  temp/abc.txt //change in this file
+ b615f26216ba1117566c8ed7bae9ed1e  temp/file-abc
+ a3403dcf3ab53b4acba41704a9e93a79  temp/file6.txt
+ a4d9c2a1460ccf530931362b567285fb  temp/abc1.txt
+
+2.after deletion files -show name of deletind files
+
+
+root@kali:~/Desktop# awk 'FNR==NR{a[$2]++;next}!a[$2]' temp.txt temp1.txt
+root@kali:~/Desktop# awk 'FNR==NR{a[$2]++;next}!a[$2]' temp1.txt temp.txt
+d3cdf380ec9b9e847f3a8881e3431d42  temp/abc.txt
+a4d9c2a1460ccf530931362b567285fb  temp/abc1.txt
+ 
+ 3.after addition - show the name of added files
+
+root@kali:~/Desktop# awk 'FNR==NR{a[$2]++;next}!a[$2]' temp.txt temp1.txt
+33078bc66bd25f58b4bcfeed2300445e  temp/file7.txt
+19f63202d5abde9a33c2cf09d65082a8  temp/a.out
+
