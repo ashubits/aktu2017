@@ -1,0 +1,3 @@
+ls
+md5 -rl Desktop > filehash.txt
+
