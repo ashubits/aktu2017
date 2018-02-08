@@ -6,12 +6,12 @@ static int available;
 pthread_mutex_t lock;
 void *producerConsumer(void *quantity)
 {
- pthread_mutex_lock(&lock);
+
   int *quan1=(int*)quantity;
   long int i,temp;
   for(i=0;i<5000000;i++)
    {
-     
+     pthread_mutex_lock(&lock);
      temp=available;
      temp=temp+*quan1;
      available=temp;
