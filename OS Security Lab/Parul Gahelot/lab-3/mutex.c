@@ -15,8 +15,9 @@ void *producerConsumer(void *quantity)
      temp=available;
      temp=temp+*quan1;
      available=temp;
+    pthread_mutex_unlock(&lock);
    }
-  pthread_mutex_unlock(&lock);
+  
 }
 
 int main()
