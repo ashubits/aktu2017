@@ -14,8 +14,9 @@ pthread_mutex_lock(&lock);
 	 	temp= available; 
 	 	temp=temp+*quantity1;
 		 available=temp ;
+	pthread_mutex_unlock(&lock); 
 	 }
-pthread_mutex_unlock(&lock); 
+
 }
 
 
