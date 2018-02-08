@@ -1,0 +1,90 @@
+1dbb6e9e7723e89cf4caa605b30e1dff  Desktop/13.jpg
+706e19f27e0f195ccf7fecadcc2401a8  Desktop/ankita sorting/OptimisedCount.c
+3fbfe4d686c29298e5c00e45c41ce259  Desktop/ankita sorting/mergesort.c
+6cd5fe84e6b451edde48f9e97f6d6f9d  Desktop/ankita sorting/insertion sort/output3.txt
+8a9f6dbe4ace8d730308f99d00818b7e  Desktop/ankita sorting/input6.txt
+f74b2a0bbee910473e5e7c1bd0b28930  Desktop/ankita sorting/insertion sort/output4.txt
+277041068e7a6987e199e008e53f6dc7  Desktop/ankita sorting/insertion sort/output5.txt
+5d3dd67318636718865f91e2013ffb4f  Desktop/ankita sorting/insertion sort/insertion
+317964f4945616a77b6fec323959d66b  Desktop/ankita sorting/insertion sort/output8.txt
+d74ee62c93015fd59b83158982194580  Desktop/ankita sorting/insertion sort/output7.txt
+5f999ede08d312e9102fbb391afddbb7  Desktop/60761_Linux.pdf
+cce6c632a92d2ff22709f5bceabb2618  Desktop/ankita sorting/insertion sort/output6.txt
+8a90cc0ebd700409eb2aa442d13a9e24  Desktop/ankita sorting/selection sort/output3.txt
+23c65113cd110b97b9b9477dce30e5e9  Desktop/ankita sorting/insertion sort/output2.txt
+8dadb15549f06f3ba2c6f8e37b2c6030  Desktop/ankita sorting/selection sort/output5.txt
+445a7d89bb24f8fcccc8fdad98bed293  Desktop/ankita sorting/selection sort/output4.txt
+3a571cc398b3d93c588d446c67ec28a8  Desktop/ankita sorting/selection sort/output7.txt
+b8c7e882e9fbfbf465a620f80190d85c  Desktop/ankita sorting/selection sort/output8.txt
+cf23a863a51b568a4cfefe69d38bccb1  Desktop/ankita sorting/selection sort/output2.txt
+3b40c5dc523d87e30e2392102789e765  Desktop/ankita sorting/selection sort/selection-sort
+131fc086e338e3798fd2828e18febc64  Desktop/ankita sorting/selection sort/selection sort.csv
+84456ce31c30e5e2264f22d08ece2922  Desktop/ankita sorting/insertion sort/output1.txt
+a3511ab5d5508f7f7762e8dcad63fd4e  Desktop/ankita sorting/input2.txt
+691e70d540b105f72e8cce51d98fbcb2  Desktop/ankita sorting/optimzedmerge/output1111.txt
+99e65cff9e5b2c0314490ef574d5efba  Desktop/ankita sorting/optimzedmerge/input.txt
+22c7cddb916cd0350896e0d3db152739  Desktop/ankita sorting/optimzedmerge/mergesort
+3edc2338ac03f49f22b1088f29b59b92  Desktop/ankita sorting/input7.txt
+6e489f95509d08843effc27bcde566f9  Desktop/ankita sorting/selection sort/output1.txt
+476134660a8a1e575be1fc65d1fbde22  Desktop/ankita sorting/insertion.c
+c9c59629ed0713b1e41d15ae96d78118  Desktop/ankita sorting/input3.txt
+76b5624cb9480d93f64fcf1e052a69d3  Desktop/ankita sorting/program.cc
+2ea0a173b5a6eb7522d39f8113c7e512  Desktop/ankita sorting/output2.txt
+45c7920e6cd940bae9c025306bc41b2f  Desktop/ankita sorting/selection-sort.c
+16c63096bfeebf8e03835d5b1e484fba  Desktop/ankita sorting/input1.txt
+5dd7e67465bb6c72fd76bf8948a259aa  Desktop/ankita sorting/merge sort/output3.txt
+3cc1bda8377b999821c3ff74b90e3295  Desktop/ankita sorting/merge sort/output5.txt
+dbc9dfb7cc005bc94ec75b2b31b393ee  Desktop/ankita sorting/merge sort/output8.txt
+d455fadcb46020f4c8f51b8267cb2e8f  Desktop/ankita sorting/merge sort/output4.txt
+ad1d5f2aa46d6a661cf74703e1a5f924  Desktop/ankita sorting/merge sort/output7.txt
+b28445b3c6941ce09a84840ede1cd9d9  Desktop/ankita sorting/merge sort/output2.txt
+d370a5056bfd8af45a8e95b627645271  Desktop/ankita sorting/merge sort/merge-sort.csv
+bac3592f5233602176c3cf0666153ddf  Desktop/ankita sorting/merge sort/merge sort.csv
+a019348e3560f649fbccb5bf19d1a32d  Desktop/ankita sorting/merge sort/output1.txt
+681db6279a14c242ca83e71cb950d137  Desktop/ankita sorting/merge sort/mergesort
+24989614a449b6c5be6b12aca6799f6d  Desktop/ankita sorting/merge sort/output6.txt
+fc17a8b02fa542fd9a2057fd16e82f5a  Desktop/ankita sorting/insertion sort/insertionsort.csv
+e505a22646adb92106c78925b3b4e4a2  Desktop/ankita sorting/optimize
+49c6284b5287960ec84381f8498fcd35  Desktop/ankita sorting/input4.txt
+a2845c3b3230ae1bc32f46e38124a08b  Desktop/ankita sorting/selection sort/output6.txt
+6d7900c2e3a2ab064f64511f959b7033  Desktop/ankita sorting/input5.txt
+d31736dc26c59f93444227424b020df2  Desktop/ankita sorting/input8.txt
+c8d24968183eab51fbc515da533563b1  Desktop/ankita sorting/Quick-sort.c
+99e65cff9e5b2c0314490ef574d5efba  Desktop/ankita sorting/bruteforce/input.txt
+026af65ccbae8a4f9806521292ab6485  Desktop/ankita sorting/random
+22c7cddb916cd0350896e0d3db152739  Desktop/ankita sorting/mergesort
+1f68550f829af84a07699e3693968797  Desktop/ankita sorting/agraph.png
+ec88af2911f106301b23ac2bb2c6f1f4  Desktop/ankita sorting/bruteforce/lab-exam/output3.txt
+d5b22f6c87a8422eec0288bcabba005e  Desktop/ankita sorting/bruteforce/lab-exam/output4.txt
+13d7069d8f6d6c97e8789489e35572a8  Desktop/ankita sorting/bruteforce/lab-exam/output5.txt
+6108838622412307b6e4192c5b548ea5  Desktop/ankita sorting/bruteforce/lab-exam/SI-2
+3fbfe4d686c29298e5c00e45c41ce259  Desktop/ankita sorting/bruteforce/lab-exam/mergesort.c
+99e65cff9e5b2c0314490ef574d5efba  Desktop/ankita sorting/bruteforce/lab-exam/input.txt
+182af9f129b394e13db3976e97b24f90  Desktop/ankita sorting/bruteforce/lab-exam/insertion.c
+6e49fa7deb9ec3a265915d885aa1b8f4  Desktop/ankita sorting/bruteforce/lab-exam/SI-4
+ae0f915983075e79e86a2308a54769ac  Desktop/ankita sorting/bruteforce/lab-exam/SI-5
+211f8d8884de644b3d18f3b7abf03517  Desktop/ankita sorting/bruteforce/lab-exam/ins
+691e70d540b105f72e8cce51d98fbcb2  Desktop/ankita sorting/bruteforce/lab-exam/output11.txt
+691e70d540b105f72e8cce51d98fbcb2  Desktop/ankita sorting/bruteforce/lab-exam/output.txt
+22c7cddb916cd0350896e0d3db152739  Desktop/ankita sorting/bruteforce/lab-exam/merge
+74c159d6b64bd4ff59a4540303f1899a  Desktop/ankita sorting/bruteforce/lab-exam/SI-1
+d41d8cd98f00b204e9800998ecf8427e  Desktop/ankita sorting/bruteforce/output.txt
+576f0c76d8d751c9924ff28f3ff838dd  Desktop/ankita sorting/bruteforce/insertion
+182af9f129b394e13db3976e97b24f90  Desktop/ankita sorting/bruteforce/insertion-sort.c
+9045652213c2535ff535528150a4cb66  Desktop/ankita sorting/bruteforce/lab-exam/SI-3
+eaba508dca4387d8421b451accdc8a7e  Desktop/ankita sorting/quick sort/output3.txt
+8892840767989c3b24c688f97fb23e95  Desktop/ankita sorting/quick sort/output5.txt
+393e416c9f9eb025c925cd378bfadfb4  Desktop/ankita sorting/quick sort/output8.txt
+093bb765ae53638d047d85ac44ef4726  Desktop/ankita sorting/quick sort/output4.txt
+706e19f27e0f195ccf7fecadcc2401a8  Desktop/ankita sorting/bruteforce/optimize.c
+5043c307d9dc42116e70bb19e8ebd68c  Desktop/ankita sorting/quick sort/output7.txt
+132f5b4c8707413c308bb3f6389567a7  Desktop/ankita sorting/quick sort/output2.txt
+5901c36f3afc7f3afb819d75a29167da  Desktop/ankita sorting/quick sort/Quick-sort
+33b8e66348aef25395375ba6ac59ec6b  Desktop/ankita sorting/quick sort/Quick sort.csv
+5a3e3259f4befca1d0ac51e0881fe1ec  Desktop/ankita sorting/quick sort/output1.txt
+5abaa2362422a3e4d6da95b668e366b5  Desktop/ankita sorting/quick sort/output6.txt
+1cb954a9fe23d373efedcfd29bae4b7a  Desktop/ankita sorting/random.c
+586689f36449fa3dbc13cf077c6d509d  Desktop/hamming code.c
+b7fbd300b6e423f22a83a603d524279f  Desktop/ankita sorting/bruteforce/lab-exam/output1.txt
+672ba85856bcc51862a6a582a1d110be  Desktop/aaa2222.jpg
+6dc599d83560fd46fd306cb15e91e165  Desktop/Implementing SSL_TLS Using Cryptography and PKI.pdf
