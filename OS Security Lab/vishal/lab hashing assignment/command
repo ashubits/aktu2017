@@ -1,0 +1,2 @@
+ls
+md5deep -rl Desktop > hash.txt
