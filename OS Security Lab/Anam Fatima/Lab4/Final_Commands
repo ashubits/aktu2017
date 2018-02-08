@@ -7,5 +7,6 @@ awk 'FNR==NR{a[$2]++;next}!a[$2]' dir1.txt dir2.txt
 3. Added Files
 awk 'FNR==NR{a[$2]++;next}!a[$2]' dir2.txt dir1.txt
 
-4. 
+4. Duplicate Files
+awk 'FNR==NR{a[$1]++;b[$2]++;next} a[$1]&&!b[$2] dir1.txt dir2.txt
 
