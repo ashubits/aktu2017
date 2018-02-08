@@ -1,0 +1,11 @@
+1. Changed files
+awk 'FNR==NR{a[$1$2]++;next}!a[$1$2]' dir1.txt dir2.txt
+
+2. Deleted files
+awk 'FNR==NR{a[$2]++;next}!a[$2]' dir1.txt dir2.txt
+
+3. Added Files
+awk 'FNR==NR{a[$2]++;next}!a[$2]' dir2.txt dir1.txt
+
+4. 
+
