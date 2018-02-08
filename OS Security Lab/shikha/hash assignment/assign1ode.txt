@@ -1,0 +1,4 @@
+
+// hash fle generation on the system files//
+  #md5deep -rl path >file.txt
+  #md5deep-rl Desltop >file.txt
