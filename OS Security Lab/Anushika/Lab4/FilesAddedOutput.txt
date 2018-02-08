@@ -1,0 +1,10 @@
+./Desktop/OSS/Lab4/IntigrityCheck2.txt
+./Desktop/OSS/Lab4/IntigrityCheck.txt
+./Desktop/OSS/Lab4/Sample1.txt
+./Desktop/OSS/Lab4/Hash.md5
+./Desktop/OSS/Lab4/lab4-New.pdf
+./Desktop/OSS/Lab4/Sample3.txt
+./Desktop/OSS/Lab4/Sample2.txt
+./Desktop/OSS/Lab4/Sample4.txt
+./Desktop/OSS/Lab4/Lab Commands.txt
+./Desktop/OSS/Lab4/FilesAddedOutput.txt

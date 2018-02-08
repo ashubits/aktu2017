@@ -1,0 +1,5 @@
+9533c85e8db6251c8fc56bea30539ff4  /home/anushika/Desktop/OSS/Lab4/Sample1 (copy).txt
+9533c85e8db6251c8fc56bea30539ff4  /home/anushika/Desktop/OSS/Lab4/Sample1.txt
+
+9a2773dc00064abec8f2943e179a473d  /home/anushika/Desktop/OSS/Lab4/Sample3 (copy).txt
+9a2773dc00064abec8f2943e179a473d  /home/anushika/Desktop/OSS/Lab4/Sample3.txt
