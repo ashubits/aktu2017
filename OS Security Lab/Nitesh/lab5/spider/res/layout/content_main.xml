@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/webview_frame" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/adView">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.google.android.gms.ads.AdView android:id="@id/adView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/toolbar_footer" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="@string/banner_ad_unit_id" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/toolbar_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/back" android:background="?selectableItemBackground" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_left_white_24px" android:tint="@color/gray" android:layout_weight="1.0" />
+        <ImageView android:id="@id/forward" android:background="?selectableItemBackground" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_right_white_24px" android:tint="@color/gray" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center" android:id="@id/billing" android:background="?selectableItemBackground" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_not_interested_white_24px" android:tint="@color/colorPrimary" android:layout_weight="4.0" />
+        <LinearLayout android:gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="end" android:id="@id/refresh" android:background="?selectableItemBackground" android:padding="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_refresh_white_24px" android:tint="@color/colorPrimary" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/image_splash" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/splash" android:scaleType="centerCrop" />
+</RelativeLayout>
