@@ -1,0 +1,13 @@
+1. Added Files
+find -type f -not -path '*/\.*' -cnewer ~/Hash.txt
+
+find -type f -not -path '*/\.*' -cnewer ~/Hash.txt >> ~/FilesAddedOutput.txt
+
+2. Delete files
+grep -Fxvf ~/IntigrityCheck.txt ~/IntigrityCheck2.txt | wc -l
+
+grep -Fxvf ~/IntigrityCheck.txt ~/IntigrityCheck2.txt | grep -v '/\.' | wc -l
+
+
+3.Duplicate files
+find ~/ -type f -not -path '*/\.*' -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate >> ~/DuplicateFilesHashed.txt
