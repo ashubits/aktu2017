@@ -1,0 +1,11 @@
+**About tool**
+Network ports are the entry points to a machine that is connected to the Internet. A service that listens on a port is able to receive data from a client application, process it and send a response back. Malicious clients can sometimes exploit vulnerabilities in the server code so they gain access to sensitive data or execute malicious code on the machine remotely. That is why testing for all ports is necessary in order to achieve a thorough security verification.
+
+Port scanning is usually done in the initial phase of a penetration test in order to discover all network entry points into the target system. Port scanning is done differently for TCP ports and for UDP ports that's why we have different tools. 
+
+**Parameters:
+Target: This is the hostname of IP address(es) to scan here localhost is used to scan own os. 
+Ports to scan - Common: This option tells Nmap to scan only the top 100 most common TCP ports (Nmap -F).
+Ports to scan - Range: You can specify a range of ports to be scanned. Valid ports are between 1 and 65535.
+Ports to scan - List: You can specify a comma separated list of ports to be scanned.
+Detect operating system: If enabled, Nmap will try to determine the type and version of the operating system that runs on the target host. The result is not always 100% accurate, depending on the way the target responds to probe requests.

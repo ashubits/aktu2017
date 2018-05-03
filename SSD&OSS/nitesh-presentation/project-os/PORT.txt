@@ -1,0 +1,22 @@
+## NOTE IN THE GIVEN TEXTBOX YOU CAN TYPE EITHER SERVICE NAME EX: HTTP OR PORT NUMBER EX: 80 FOR RANGE TYPE AS GIVE FORMAT EX:6000:6007 ##
+
+service		port
+http		80
+https		443
+ftp		21
+ssh		22
+ssh-server	2222
+
+Allow Specific Port Ranges
+tcp		6000:6007
+udp		6000:6007
+
+**Allow access from a trusted IP address**
+Typically, you would need to allow access only to publicly open ports such as port 80. Access to all other ports need to be restricted or limited. You can whitelist your home/office IP address (preferably, it is supposed to be a static IP) to be able to access your server through SSH or FTP.
+
+sudo ufw allow from 192.168.0.1 to any port 22
+
+Let's also allow access to the MySQL port.
+
+sudo ufw allow from 192.168.0.1 to any port 3306
+
