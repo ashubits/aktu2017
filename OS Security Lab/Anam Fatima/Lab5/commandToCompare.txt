@@ -1,0 +1,1 @@
+awk 'NR==FNR{a[$0]++;next} !a[$0] ' AndMal.txt AndBen.txt

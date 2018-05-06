@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.golden.signalz">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.golden.signalz.MainSplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.golden.signalz.FallAnimationActivity"/>
+        <activity android:label="@string/app_name" android:name="com.golden.signalz.FallAnimationActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.dinostudio.saverbattery" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="info.androidhive.AppController" android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="mobi.mclick.ad.publisher.id" android:value="ductjen"/>
+        <activity android:label="@string/app_name" android:name="com.dinostudio.saverbattery.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dinostudio.saverbattery.TurnModeActivity"/>
+        <activity android:name="com.dinostudio.saverbattery.SetModeActivity"/>
+        <activity android:name="com.dinostudio.saverbattery.StoreActivity"/>
+        <service android:name="com.dinostudio.saverbattery.BatteryService"/>
+        <service android:name="mobi.mclick.ad.AdsService" android:process=":adflexService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="mobi.mclick.ad.AdsActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="com.startapp.android.publish.list3d.List3DActivity" android:theme="@android:style/Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.startapp.android.publish.AppWallActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+    </application>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.Meteosolutions.Meteo3b">
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <permission android:name="com.Meteosolutions.Meteo3b.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.Meteosolutions.Meteo3b.C2D_MESSAGE"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:logo="@drawable/ic_launcher" android:name="app3bMeteo" android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.gms.analytics.globalConfigResource" android:resource="@xml/analytics_tracker"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTop" android:logo="@drawable/ic_drawer" android:name="com.Meteosolutions.Meteo3b.MainActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="3bmeteo.com" android:pathPrefix="/meteo_localita/" android:scheme="http"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="3bmeteo.com" android:pathPrefix="/articolo_giornale/" android:scheme="http"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:host="3bmeteo.com" android:pathPrefix="/video/" android:scheme="http"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Meteosolutions.Meteo3b.DeepLinkParser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_h_activity" android:name="com.Meteosolutions.Meteo3b.H_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_news_activity" android:name="com.Meteosolutions.Meteo3b.Notizie_Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_news_activity" android:name="com.Meteosolutions.Meteo3b.NewsDetail_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_news_activity" android:name="com.Meteosolutions.Meteo3b.Satelliti_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_news_activity" android:name="com.Meteosolutions.Meteo3b.Satellite_detail_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_news_activity" android:name="com.Meteosolutions.Meteo3b.Radar_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_news_activity" android:name="com.Meteosolutions.Meteo3b.Radar_detail_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_news_activity" android:name="com.Meteosolutions.Meteo3b.SearchLocality_activiy" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_preferiti_activity" android:name="com.Meteosolutions.Meteo3b.Preferiti_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_webcam_" android:name="com.Meteosolutions.Meteo3b.Webcam_Activity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_webcam_" android:name="com.Meteosolutions.Meteo3b.Webcam_detail_activity"/>
+        <activity android:label="@string/title_activity_foto_" android:name="com.Meteosolutions.Meteo3b.Foto_Activity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_foto_" android:name="com.Meteosolutions.Meteo3b.Foto_detail_activity"/>
+        <activity android:label="@string/title_activity_foto_" android:name="com.Meteosolutions.Meteo3b.Video_Activity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_foto_" android:name="com.Meteosolutions.Meteo3b.Video_detail_activity"/>
+        <activity android:label="@string/title_activity_foto_" android:name="com.Meteosolutions.Meteo3b.PrevisioniVideo_Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_foto_" android:name="com.Meteosolutions.Meteo3b.Segnalazioni_Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_gestione_allerte_activity" android:name="com.Meteosolutions.Meteo3b.Gestione_allerte_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_impostazioni_activity" android:name="com.Meteosolutions.Meteo3b.Impostazioni_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_nobanner" android:name="com.Meteosolutions.Meteo3b.NoAds_activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_allerte_activity" android:name="com.Meteosolutions.Meteo3b.Allerte_activity"/>
+        <provider android:authorities="com.Meteosolutions.Meteo3b.provider.LocationProvider" android:name=".provider.LocationProvider"/>
+        <service android:name="com.neodata.adagiosdk.CommunicationManagerService"/>
+        <activity android:label="@string/title_activity_invio_segn_activity" android:name="com.Meteosolutions.Meteo3b.InvioSegn_activity"/>
+        <receiver android:name=".desktop.widgetnew.WidgetProvider_SmallNew">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.Meteosolutions.Meteo3b.desktop.widget.UPDATE"/>
+                <action android:name="com.Meteosolutions.Meteo3b.data.received"/>
+                <action android:name="com.Meteosolutions.Meteo3b.gpsdata.received"/>
+                <action android:name="com.Meteosolutions.Meteo3b.desktop.widget.OpenApp"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetprovider_info_small"/>
+        </receiver>
+        <receiver android:name=".desktop.widgetnew.WidgetProvider_BigNew">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.Meteosolutions.Meteo3b.desktop.widget.UPDATE"/>
+                <action android:name="com.Meteosolutions.Meteo3b.data.received"/>
+                <action android:name="com.Meteosolutions.Meteo3b.gpsdata.received"/>
+                <action android:name="com.Meteosolutions.Meteo3b.desktop.widget.OpenApp"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetprovider_info_big"/>
+        </receiver>
+        <receiver android:name="com.Meteosolutions.Meteo3b.desktop.widgetnew.WidgetProvider_DayNew">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.Meteosolutions.Meteo3b.desktop.widget.UPDATE"/>
+                <action android:name="com.Meteosolutions.Meteo3b.data.received"/>
+                <action android:name="com.Meteosolutions.Meteo3b.gpsdata.received"/>
+                <action android:name="com.Meteosolutions.Meteo3b.desktop.widget.OpenApp"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetprovider_info_days"/>
+        </receiver>
+        <service android:label="3bMeteoWidgetService" android:name=".desktop.widgetnew.UpdaterWidgetClass" android:process=":widget_remote"/>
+        <service android:label="3bMeteoWidgetGPSService" android:name=".desktop.widgetnew.GPSWidgetClass" android:process=":widget_gps"/>
+        <activity android:name="com.Meteosolutions.Meteo3b.desktop.widget.WidgetImpostazioni_Activity_Small">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Meteosolutions.Meteo3b.desktop.widget.WidgetImpostazioni_Activity_Big">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Meteosolutions.Meteo3b.desktop.widget.WidgetImpostazioni_Activity_Days">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.Meteosolutions.Meteo3b.gcm.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.Meteosolutions.Meteo3b.gcm"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.Meteosolutions.Meteo3b.server.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.Meteosolutions.Meteo3b.gcm.GcmIntentService"/>
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="1ac872bb44e04cd8cc43df16164bbcfdc057e449"/>
+        <provider android:authorities="com.Meteosolutions.Meteo3b.provider.BookmarkProvider" android:enabled="true" android:exported="true" android:multiprocess="true" android:name="com.Meteosolutions.Meteo3b.provider.BookmarkProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+    </application>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.incredible.flags.bangladesh">
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.software.live_wallpaper" android:required="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <service android:enabled="true" android:label="@string/app_name" android:name="com.aliftek.flags.FlagsWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/flags"/>
+        </service>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:label="@string/app_name" android:name=".PreferencesActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="true" android:label="@string/app_name" android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.ads.AdActivity"/>
+        <meta-data android:name="com.OQgqIpCo.XWfjqfqu81850.APPID" android:value="@string/airpush_id"/>
+        <meta-data android:name="com.OQgqIpCo.XWfjqfqu81850.APIKEY" android:value="XWfjqfqu81850*1346142179818502737"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.OQgqIpCo.XWfjqfqu81850.OptinActivity" android:theme="@android:style/Theme.Translucent"/>
+        <service android:exported="false" android:name="com.OQgqIpCo.XWfjqfqu81850.PushService"/>
+        <receiver android:exported="false" android:name="com.OQgqIpCo.XWfjqfqu81850.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.OQgqIpCo.XWfjqfqu81850.SmartWallActivity"/>
+    </application>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="best.live_wallpapers.galaxy_s5_live_wallpaper_2014">
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:icon="@drawable/galaxy_icon" android:label="@string/app_name" android:largeHeap="true" android:theme="@style/AppTheme">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:label="@string/app_name" android:name="best.live_wallpapers.galaxy_s5_live_wallpaper_2014.GalaxyNoteService" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/leafpaper"/>
+        </service>
+        <activity android:exported="true" android:name=".LeafSettingsActivity"/>
+        <activity android:exported="true" android:name="best.live_wallpapers.galaxy_s5_live_wallpaper_2014.LunchSettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="best.live_wallpapers.galaxy_s5_live_wallpaper_2014.ExitLayout"/>
+        <activity android:exported="true" android:icon="@drawable/galaxy_icon" android:name="best.live_wallpapers.galaxy_s5_live_wallpaper_2014.GridViewExampleActivity"/>
+        <receiver android:label="@string/app_name" android:name=".WatchWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/watch_widget_provider"/>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity"/>
+    </application>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.absstudio.parallaxbirds.lwp">
+    <application android:allowBackup="true" android:icon="@drawable/bird_ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <service android:enabled="true" android:label="@string/app_name" android:name="com.absstudio.parallaxbirds.lwp.BirdMain" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/birdssetting"/>
+        </service>
+        <service android:name="com.appnext.appnextsdk.DownloadService"/>
+        <activity android:name="com.absstudio.parallaxbirds.lwp.StartScreen" android:theme="@android:style/Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.absstudio.parallaxbirds.lwp.Settings" android:theme="@style/CustomTheme"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name="com.startapp.android.publish.list3d.List3DActivity" android:theme="@android:style/Theme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.startapp.android.publish.OverlayActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.startapp.android.publish.FullScreenActivity" android:theme="@android:style/Theme"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="preferExternal" android:theme="@android:style/Theme.NoTitleBar" package="net.klier.bmi2free" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <application android:banner="@drawable/app_banner" android:debuggable="false" android:icon="@drawable/app_icon" android:isGame="true" android:label="@string/app_name">
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.unity3d.player.UnityPlayerNativeActivity" android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+            <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false"/>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.facebook.unity.FBUnityLoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.facebook.unity.FBUnityDialogsActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:exported="true" android:name="com.facebook.unity.FBUnityDeepLinkingActivity"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="\ 109296066077205"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="chemasalamanca.bubbles_live_wallpaper_lite">
+    <uses-feature android:name="android.software.live_wallpaper"/>
+    <application android:debuggable="false" android:icon="@drawable/icon" android:label="@string/wallpapers">
+        <service android:label="@string/wallpaper_bubbles" android:name=".BubblesWallpaper2" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/bubbles"/>
+        </service>
+        <activity android:exported="true" android:label="@string/bubbles_settings" android:name=".BubblesWallpaper2Settings" android:theme="@android:style/Theme.Light.WallpaperSettings"/>
+    </application>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.domoreapps.butterfly_3d.zipper.lockscreen">
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application android:allowBackup="true" android:icon="@drawable/b_icon1" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:name="com.domoreapps.butterfly_3d.zipper.lockscreen.LockScreenPreference" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.domoreapps.butterfly_3d.zipper.lockscreen.ZipperLockActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <service android:name="com.domoreapps.butterfly_3d.zipper.lockscreen.LockScreenService"/>
+        <receiver android:enabled="true" android:name="com.domoreapps.butterfly_3d.zipper.lockscreen.LockScreenReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+    </application>
+</manifest>
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="org.androidworks.livewallpaperjellybean">
+    <application android:debuggable="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        <service android:label="@string/app_name" android:name="org.androidworks.livewallpaperjellybean.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/wallpaper"/>
+        </service>
+        <activity android:exported="true" android:label="@string/app_name" android:name=".Prefs" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="true" android:label="@string/app_name" android:name="org.androidworks.livewallpaperjellybean.DreamPrefs" android:theme="@style/SettingsTheme"/>
+        <activity android:label="@string/about_title" android:name="org.androidworks.livewallpaperjellybean.About" android:theme="@style/AboutTheme">
+            <intent-filter>
+                <action android:name="org.androidworks.livewallpaperjellybean.About"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.androidworks.livewallpaperjellybean.SHARE_APP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="org.androidworks.livewallpaperjellybean.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+            </intent-filter>
+        </activity>
+        <service android:name="org.androidworks.livewallpaperjellybean.WallpaperDreamService">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.service.dream" android:resource="@xml/dream"/>
+        </service>
+    </application>
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-feature android:name="android.software.live_wallpaper"/>
+</manifest>
