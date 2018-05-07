@@ -1,0 +1,34 @@
+Algorithm:
+1. Extracting the .apk files of benign and malware folder.
+2. Extracting the permissions of AndroidManifest.xml of apk files extracted in step 1.
+   Name the files as Output.txt for benign folder and MalwareOutput.txt for Malware folder.
+3. Sort and remove the duplicate entries of Output.txt file and save it as SortedOutput.txt file.
+4. Sort and remove the duplicate entries of MalwareOutput.txt file and save it as SortedMalwareOutput.txt.
+5. Compare the two sorted and unique entries files created in step 3 and 4, i.e., SortedOutput.txt and SortedMalwareOutput.txt.
+   Rule of Comparison: entries present in malware file but not in benign file.
+
+Commands used for the execution of above steps:
+
+//for decompiling .apk files in benign folder
+find . -name "*.apk" | while read filename; do java -jar apktool.jar d "$filename"; done;
+
+//for decompiling apk folders given in malware folder
+find . -name "*" | while read filename; do java -jar apktool.jar d "$filename"; done;
+
+//for finding permissions given in AndroidManifest.xml file of all apk files of benign folder
+find . -name "*.xml" | while read filename; do grep -r permission "$filename" >> Output.txt; done;
+
+//for finding permissions given in AndroidManifest.xml file of all apk files of Malware folder
+find . -name "*.xml" | while read filename; do grep -r permission "$filename" >> MalwareOutput.txt; done;
+
+//Unique sort Output.txt (this will sort the file as well as remove the duplicate entries in the file)
+sort -u Output.txt >> SortedOutput.txt
+
+//Unique sort MalwareOutput.txt
+sort -u MalwareOutput.txt >> SortedMalwareOutput.txt
+
+//Compare the two sorted and unique entries output file
+comm -1 -3 SortedOutput.txt SortedMalwareOutput.txt >> Difference.txt
+
+-1 in above command will suppress the entries present in SortedOutput.txt(which belongs to benign), -3 in above command will suppress the entries common to both the files. Hence the output will be the Malware Permissions.
+

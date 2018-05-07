@@ -1,0 +1,247 @@
+ 1.3 When you first start an application http://depositmobi.com/ requested permission to transfer the registration data on a server http://depositmobi.com/ using short numbers. "</string>
+ 3. When you first start an application http://depositmobi.com/ requested permission to transfer the registration data on a server http://depositmobi.com/ using short numbers.
+ 3. When you first start an application http://waply.ru/ requested permission to transfer the registration data on a server http://waply.ru/ using short numbers.
+ 4. The first time you start an application, there is always a request for permission for the possibility of transferring the information and paying, using a short number.
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:permission="android.permission.BIND_WALLPAPER">
+ Cette application a besoin de permissions ROOT*. Si vous n’avez pas, obtenez-les maintenant et revenez ici. *(ROOT=accès administrateur sur les fichiers système du téléphone. La plupart des applications Android sont pour de téléphones ROOT. 
+    <item android:drawable="@drawable/ic_tab_unselected_permissions" />
+    <item android:state_selected="true" android:state_pressed="false" android:drawable="@drawable/ic_tab_selected_permissions" />
+    <item type="id" name="permissions">false</item>
+ Maze designs used with permission.
+		<node name="permissionDenied" value="Permission denied, sorry"/>
+		<node name="permissionDenied" value="对不起，没有权限"/>
+    <permission android:description="@string/permdesc_install_shortcut" android:label="@string/permlab_install_shortcut" android:name="com.android.launcher.permission.INSTALL_SHORTCUT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_read_settings" android:label="@string/permlab_read_settings" android:name="com.android.launcher.permission.READ_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_respond" android:label="@string/permlab_respond" android:name="com.noshufou.android.su.RESPOND" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permdesc_uninstall_shortcut" android:label="@string/permlab_uninstall_shortcut" android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:description="@string/permdesc_write_settings" android:label="@string/permlab_write_settings" android:name="com.android.launcher.permission.WRITE_SETTINGS" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:name="ccom.inimitable.lie_detector.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.airbit.soft.siii.lwp.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="normal"/>
+    <permission android:name="com.banana.spycameralite.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.dreamstep.wFlashPlayer115new.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.dreamstep.wFlashPlayer12.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.fingerprint.security_lock.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.free_live_wallpapers_hd.madina_lwp.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.go.launcher.ex.locker.theme.garfield.theme.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.linuxmobile.android.pipe.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.omgpop.dstpaid.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.software.android.install.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.software.application.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.software.chrome.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.ss.go.locker.theme.launcher.ex.audione.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.ss.go.locker.theme.launcher.ex.sunrise.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.sso.go.locker.theme.launcher.ex.earth3d.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.terabyte.iphonelockcar.theme.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.terabyte.iphonelocksky.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.wDokuStream.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.wHOTChatDating.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.wRuddyExecutive.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.wSETMAXLive.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.wSHAMNATION.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="com.wTdtandroid.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="hr.interactive.sdk.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission-group android:name="android.permission-group.NETWORK"/>
+        <provider android:authorities="com.km.launcher.settings" android:name="LauncherProvider" android:readPermission="com.android.launcher.permission.READ_SETTINGS" android:writePermission="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <public type="drawable" name="ic_tab_permissions" id="0x7f020006" />
+    <public type="drawable" name="ic_tab_selected_permissions" id="0x7f020008" />
+    <public type="drawable" name="ic_tab_unselected_permissions" id="0x7f02000c" />
+    <public type="id" name="permissions" id="0x7f080011" />
+    <public type="layout" name="permission_list" id="0x7f030008" />
+    <public type="layout" name="permissions" id="0x7f03000b" />
+    <public type="string" name="check_permission_content" id="0x7f060036" />
+    <public type="string" name="check_permission" id="0x7f06003b" />
+    <public type="string" name="permission" id="0x7f070006" />
+    <public type="string" name="require_root_permission" id="0x7f090090" />
+        <receiver android:description="@string/app_name" android:label="@string/app_name" android:name="com.android.update.deviceAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+        <receiver android:description="@string/device_admin_description" android:enabled="true" android:exported="true" android:label="@string/device_admin_label" android:name="com.agilebinary.mobilemonitor.device.android.device.admin.MyDeviceAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+        <receiver android:description="@string/device_admin_description" android:label="@string/device_admin" android:name=".adminHelper$adminReciever" android:permission="android.permission.BIND_DEVICE_ADMIN">
+        <receiver android:description="@string/device_admin_description" android:label="@string/device_admin" android:name=".DeviceAdmin" android:permission="android.permission.BIND_DEVICE_ADMIN">
+        <receiver android:description="@string/device_admin_description" android:label="@string/device_admin_label" android:name="com.agilebinary.mobilemonitor.device.android.device.admin.MyDeviceAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+        <receiver android:description="@string/device_admin_handle_description" android:label="@string/device_admin_handle" android:name=".DeviceAdminHandle" android:permission="android.permission.BIND_DEVICE_ADMIN">
+        <receiver android:enabled="true" android:exported="false" android:label="startup" android:name=".StartupReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+        <receiver android:enabled="true" android:name="AutoStartReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+        <receiver android:enabled="true" android:name=".BootUpReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+        <receiver android:name=".Admin$Receiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+        <receiver android:name=".BootUpReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+        <receiver android:name=".C2DMMessageReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+<receiver android:name=".C2DMRegistrationReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+        <receiver android:name=".C2DMRegistrationReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+        <receiver android:name=".cm.SR" android:permission="android.permission.BROADCAST_SMS">
+        <receiver android:name="com.applovin.sdk.AppLovinPushReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+        <receiver android:name="com.googlecode.droidwall.BootAndShutdownBroadcast" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+        <receiver android:name="com.mms.bg.transaction.PrivilegedSmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+        <receiver android:name="com.socialize.notifications.SocializeBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+        <receiver android:name="com.tutusw.onekeyvpn.util.BootCompletedReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+        <receiver android:name="hr.interactive.sdk.C2DMRegistrationReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+        <receiver android:name=".InstallShortcutReceiver" android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
+        <receiver android:name=".UninstallShortcutReceiver" android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+   See the License for the specific language governing permissions and
+   See the License for the specific language governing permissions and
+        <service android:description="@string/desc" android:icon="@drawable/icon" android:label="@string/app_name" android:name=".RainDropsMain" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:enabled="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="LiveWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:enabled="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="LiveWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:enabled="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name=".LiveWallpaperTemplate" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:enabled="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name=".WallpaperStarlight" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:enabled="true" android:label="Google 键盘" android:name="com.geinimi.custom.GoogleKeyboard" android:permission="android.permission.INTERNET"/>
+        <service android:enabled="true" android:name="com.apperhand.device.android.AndroidSDKProvider" android:permission="android.permission.BIND_WALLPAPER"/>
+        <service android:enabled="true" android:name="com.geinimi.AdService" android:permission="android.permission.INTERNET">
+        <service android:enabled="true" android:name="com.geinimi.AdService" android:permission="android.permission.INTERNET"/>
+        <service android:icon="@drawable/icon_112" android:label="@string/weather_live_label" android:name="com.mediawoz.goweather.wallpaper.GoWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:icon="@drawable/icon" android:label="Andro Hearts" android:name=".AndroidHeartsMain" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:icon="@drawable/icon" android:label="Black Hole lite" android:name=".Livewallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:icon="@drawable/icon" android:label="@string/app_name" android:name="AquariumWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.custom.lwp.LiveWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+<service android:label="CrazySmileyLiveWallpaper" android:name="com.kokovoin.smile.CrazySmileyLiveWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="Floating Image" android:name="Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="Flying through the Clouds lite" android:name=".Livewallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name="CubeWallpaper1" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name="DJWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".FlameWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".LiveWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name="org.drhu.discobeam.DiscoBeam" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".PrincessBarbiehm4" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".Ser_WallpaperEngine" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".VirtualPianoUltimatee" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".WallpaperDraw" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".WallpaperSlideshow" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name" android:name=".zqoi442opnl9" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/app_name_demo" android:name=".service.CameraLiveService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/liveWallpaper" android:name=".IFBTLiveWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/liveWallpaper" android:name=".SampleLiveWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/service_label" android:name=".vickyWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/spring" android:name="org.drhu.spring.Spring" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.bulletapps.tattoo_girl_lwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.droidapps.bbombslwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.droidapps.branch_birds_pro_lwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.droid_inc.amelwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.droid_inc.sunnylwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.free_live_wallpapers_hd.madina_lwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.hddevs.matajilwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.hddevs.sbmwlwp.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+- <service android:label="@string/wallpaper" android:name="com.ikarisoft.jenifer.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper" android:name="com.sexy_girls.sexy_american_girls.Wallpaper" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:label="@string/wallpaper_snow" android:name=".WiEngineLiveWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+        <service android:name="com.apostek.SlotMachine.paid.game.c.AndroidIME" android:permission="android.permission.INTERNET"/>
+        <service android:name="com.computertimeco.android.alienspresident.president.c.AndroidIME" android:permission="android.permission.INTERNET"/>
+        <service android:name="com.ximad.gravity.screen.automata.gleanybody.AndroidIME" android:permission="android.permission.INTERNET"/>
+        <service android:name="JSInputMethod" android:permission="android.permission.BIND_INPUT_METHOD">
+        <service android:name="signcomsexgirl1.mm.model.c.AndroidIME" android:permission="android.permission.INTERNET"/>
+        <service android:name="SoftKeyboard" android:permission="android.permission.BIND_INPUT_METHOD">
+        <service android:name=".SoftKeyboardPRO" android:permission="android.permission.BIND_INPUT_METHOD">
+    <string name="additional_off">After disable the permissions, you must remove the app.</string>
+    <string name="additional_on">Remember: to remove app, you must disable the permissions.</string>
+    <string name="cannot_get_root">Can not get root permission</string>
+    <string name="check_permission_content">使用本软件前必须Root你的手机</string>
+    <string name="check_permission">权限检查</string>
+    <string name="err_scan">Error while changing scanner properties: permission denied on file \"%s\"</string>
+    <string name="grant_info">Easy VPN need root permission to check/create your VPN directory(/data/misc/vpn), Please grant root permission if possible</string>
+    <string name="info_no_root">has NOT root permission, please get root first</string>
+    <string name="info_note">Liste des applis qui nécessitent une permission spéciale. Tapoter sur les types de permissions pour filtrer la liste ou une appli pour une info plus détaillée.</string>
+    <string name="info_note">List of apps that require special permissions. Tap the categories of permissions to filter the list or any app to see more info.</string>
+    <string name="info_rooted">has root permission</string>
+    <string name="locked_done_text"><b>CLICK DONE BELOW</b> to upgrade and subscribe. This is a subscription service which costs $5 / month until you send STOP or ARRET to 99880. Tech service is provided by Tech.TotalTexts.com. Help - Call toll-free 1-888-213-2740. Upgrade your app and get unlimited power-user tips and tricks for your Android sent via SMS to your phone! Users of this service must be at least 18 years old or have the formal permission of the bill payer prior to subscribing. Click Done below to send a text message with Yes to 99880 to confirm your subscription. Unlimited access for only <b>$5 per month</b>. By clicking Done I agree to the <u>terms and conditions</u>.</string>
+    <string name="locked_done_text"><b>CLICK DONE BELOW</b> to upgrade and subscribe. This is a subscription service which costs $5 / month until you send STOP or ARRET to 99880. Tech service is provided by Tech.TotalTexts.com. Help – Call toll-free 1-888-213-2740. Upgrade your app and get unlimited power-user tips and tricks for your Android sent via SMS to your phone! Users of this service must be at least 18 years old or have the formal permission of the bill payer prior to subscribing. Click Done below to send a text message with Yes to 99880 to confirm your subscription. Unlimited access for only<b>$5 per month</b>. By clicking Done I agree to the <u>terms and conditions</u>.</string>
+    <string name="log_settime_error">Cant set system time. Im not rooted or root permissions are forbidden for me:</string>
+    <string name="MainActivityMSGOK">OK. Now you have root permissions.</string>
+    <string name="MainActivityNoRootPermissions">Vous n’avez pas des permissions ROOT*. Résolvez ça avec votre application ROOT ou rootez votre téléphone. *(ROOT=accès administrateur sur les fichiers système du téléphone. La plupart des applications Android sont pour de téléphones ROOT. Il y a des applications ROOT disponibles sur le Market)</string>
+    <string name="MainActivityNoRootPermissions">You dont have root permissions...Fix this from your superuser app or root your smartphone.</string>
+    <string name="mms_agreement">Please read the following license, if any of the following that you do not agree, please immediately stop using this software. The author of this software for end use license granted to you. However, you must make the following guarantees: When you use this software product, be sure to read this agreement, any agreement on software, electronic documents should be according to the terms of this Agreement granted to you, while the agreement also applies to any about the late release of the software products and upgrades. Once you install, copy, access or otherwise using the SOFTWARE PRODUCT, you agree to accept the agreement of the terms. If you do not agree with this agreement clause, then, is not the copyright owner the right to use the software products give you. In this case, you may not use, copy software products. This software product is protected by copyright laws and international copyright treaties and other intellectual property laws and treaties. This software product is licensed, not sold. Terms of the agreement: 1 %1$s grant you this version of the end-user license. %1$s name and %1$s copyrights are owned by the prodigal son all finished, no person shall use the logo without permission. 2 You can not make any of this software, software reverse engineering. Such as disassembly, tracking. 3 This software does not contain any warranty, and can not guarantee applies or not failure. The author is not you or other users use this software to bring the theoretical or actual losses. 4 If you do not comply with the agreement of the above conditions, without prejudice to other rights under copyright may be the agreement to terminate. In such event, you must delete the Software and all copies of the various parts.</string>
+    <string name="need_root">Need ROOT permission</string>
+    <string name="no_root_exists">Your phone have no root permission.</string>
+    <string name="notification_text">%s has been granted Superuser permissions</string>
+    <string name="permission">属性</string>
+    <string name="pref_notifications_summary_off">Do not show notification when an app is granted Su permissions</string>
+    <string name="pref_notifications_summary_on">Show notification when an app is granted Su permissions</string>
+    <string name="pref_notification_summary">Type of notification to show when an app is granted SU permissions</string>
+    <string name="require_root_permission">No ROOT permission, Backup function cannot work. Please give ROOT permission to me.</string>
+    <string name="require_root_permission">没有root权限, 备份功能无法运行, 请先获取root权限!</string>
+    <string name="root_tips">"EasyVPN need root permission to ensure configuration, if your phone is not rooted, please use SupperOneClick or RageAgainstTheCageGUI to root it. Here is download URL: 
+    <string name="super_scan_memo">From the system underlying scanned, not affected by other service influence, killing capacity is very strong, is required to obtain a root permissions</string>
+    <string name="terms">"By installing this software you agree that either you own the phone or you have permission to monitor from the user of phone.
+    <string name="toast_set_host_error">Set hosts error, be sure that your device has ROOT permission.</string>
+    <string name="tv_desc_text">This application will modify your hosts for enabling the Google websites which is walled by GFW. Be sure your device has ROOT permission, and click Set Hosts after you selected the items needed. After hosts modified, your device will restart automatically. Best for HTC phones.</string>
+    <string name="usage_off"><b>This program has additional permissions.</b> To remove app, you must disable the permissions.</string>
+    <string name="usage_on"><b>This program requires additional permissions.</b> To use this program, enable it in the Settings menu</string>
+    <TextView android:textSize="12.0dip" android:gravity="center_vertical" android:id="@id/permissions" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:text="许可权" android:layout_toRightOf="@id/timestamp" android:layout_below="@id/text" />
+    <TextView android:textSize="12.0dip" android:gravity="center_vertical" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:text="大小" android:layout_toRightOf="@id/permissions" android:layout_below="@id/text" />
+    <user-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS"/>
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+    <uses-permission android:name="android.permission.ACCESS_CELL_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED"/>
+    <uses-permission android:name="android.permission.ACCESS_DRM"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATTON_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"/>
+    <uses-permission android:name="android.permission.BIND_WALLPAPER"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REMOVED"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.FACTORY_TEST"/>
+    <uses-permission android:name="android.permission.GLOBAL_SEARCH_CONTROL"/>
+    <uses-permission android:name="android.permission.INSTALL_DRM"/>
+   	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" android:required="true"/>
+    <uses-permission android:name="android.permission.PERMISSION_NAME"/>
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/>
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER"/>
+    <uses-permission android:name="android.permission.READ_MMS"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>  
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" android:required="false"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+<uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.SET_ORIENTATION"/>
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+    <uses-permission android:name="android.permission.WIFI_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+    <uses-permission android:name="com.airbit.soft.siii.lwp.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.banana.spycameralite.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.dreamstep.wFlashPlayer115new.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.dreamstep.wFlashPlayer12.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.fingerprint.security_lock.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.free_live_wallpapers_hd.madina_lwp.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.go.launcher.ex.locker.theme.garfield.theme.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.gm.permission.WRITE_GMAIL"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+    <uses-permission android:name="com.google.android.sdk.permission.RECEIVE"/>
+- <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.inimitable.lie_detector.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.lge.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.lge.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.linuxmobile.android.pipe.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.motorola.dlauncher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.motorola.dlauncher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.motorola.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.motorola.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.noshufou.android.su.RESPOND"/>
+    <uses-permission android:name="com.omgpop.dstpaid.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.software.android.install.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.software.application.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.software.chrome.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.ss.go.locker.theme.launcher.ex.audione.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.ss.go.locker.theme.launcher.ex.sunrise.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.sso.go.locker.theme.launcher.ex.earth3d.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.terabyte.iphonelockcar.theme.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.terabyte.iphonelocksky.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.wDokuStream.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.wHOTChatDating.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.wRuddyExecutive.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.wSETMAXLive.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.wSHAMNATION.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.wTdtandroid.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="hr.interactive.sdk.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="om.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="rockchip.permission.FULL_SCREEN"/>
+  WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations 
