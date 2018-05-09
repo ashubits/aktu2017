@@ -1,0 +1,26 @@
+
+1.--FOR FINDING HASH--
+find ~/ -type f -print0 | xargs -0 md5sum >> ~/Desktop/OSS/Lab4/Hash.md5
+			OR
+find ~/ -type f -not -path '*/\.*' -print0 | xargs -0 md5sum >> ~/Desktop/OSS/Lab4/HashFinal.md5
+
+2.--FOR COMPARING HASH--
+md5sum -c ~/Desktop/OSS/Lab4/Hash.md5
+
+md5sum -c ~/Desktop/OSS/Lab4/Hash.md5 | grep -v "OK$"  >> ~/Desktop/OSS/Lab4/IntigrityCheck.txt
+
+grep -o ' FAILED' ~/Desktop/OSS/Lab4/IntigrityCheck2.txt | wc -l >> ~/Desktop/OSS/Lab4/IntigrityCheck2.txt
+
+3. Added Files
+find -type f -not -path '*/\.*' -cnewer ~/Hash.txt
+
+find -type f -not -path '*/\.*' -cnewer ~/Hash.txt >> ~/FilesAddedOutput.txt
+
+4. Delete files
+grep -Fxvf ~/IntigrityCheck.txt ~/IntigrityCheck2.txt | wc -l
+
+grep -Fxvf ~/IntigrityCheck.txt ~/IntigrityCheck2.txt | grep -v '/\.' | wc -l
+
+
+5.Duplicate files
+find ~/ -type f -not -path '*/\.*' -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate >> ~/DuplicateFilesHashed.txt333
